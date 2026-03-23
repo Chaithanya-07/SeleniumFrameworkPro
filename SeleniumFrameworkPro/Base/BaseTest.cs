@@ -14,6 +14,7 @@ namespace SeleniumFrameworkPro.Base
             driver = DriverFactory.GetDriver();
         }
 
+
         [TearDown]
         public void TearDown()
         {
